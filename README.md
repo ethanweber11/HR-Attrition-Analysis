@@ -59,18 +59,47 @@ The dataset includes information about:
 ## SQL Analysis
 The SQL analysis was organized into:
 - Key performance indicators
+  - Total employee count
+  - Total employees who have left the company
+  - Average years at company
+  - Overall attrition rate
+  - Average age
+  - Average job satisfaction
 - Attrition rate comparison between
   - Department
   - Age Group
-  -  Overtime Status
+  - Overtime Status
   - Job Role
   - Business Travel Frequency
 
 
-## Key Performance Indicators:
+## R Analysis
+The R analysis was organized into:
+- Changing attrition values from Yes/No to 1/0
+- Fitting a model where attrition is the independent variable and overtime is the only predictor
+- Fitting a second model where attrition is the independent variable and the predictors are:
+  - Age
+  - Monthly Income
+  - Distance from home
+  - Overtime
+  - Business travel frequency
+  - Job satisfaction
+  - Environment satisfaction
+  - Years at company
+- Exponentiating results to get ratios instead of odds-ratios
+- Creating an ANOVA chi-squared test to validate variable importance
+- Visualizing a decision tree on the second model
+
 
 ## Key Findings
-
+- The total number of employees who left was 237
+- The overall attrition rate for this time period was 16.12%
+- The average job satisfaction out of 5 was 2.73
+- Sales had the highest attrition rate out of all departments
+- Younger people were more likely to leave
+- It was much more common for employees who participated in overtime to leave the company
+- Employees who traveled more had higher rates of leaving
+- Overtime and frequent business travelling are the variables most associated with employees leaving 
  
 
 ## Business Recommendations
