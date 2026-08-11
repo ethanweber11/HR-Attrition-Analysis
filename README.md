@@ -60,11 +60,11 @@ The dataset includes information about:
 The SQL analysis was organized into:
 - Key performance indicators
 - Attrition rate comparison between
- - Department
- - Age Group
- - Overtime Status
- - Job Role
- - Business Travel Frequency
+  - Department
+  - Age Group
+  -  Overtime Status
+  - Job Role
+  - Business Travel Frequency
 
 
 ## Key Performance Indicators:
