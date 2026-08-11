@@ -87,7 +87,7 @@ The R analysis was organized into:
   - Environment satisfaction
   - Years at company
 - Exponentiating results to get ratios instead of odds-ratios
-- Creating an ANOVA chi-squared test to validate variable importance
+- Creating an ANOVA chi-squared test to validate variable importanceto model
 - Visualizing a decision tree on the second model
 
 
