@@ -76,8 +76,8 @@ The SQL analysis was organized into:
 ## R Analysis
 The R analysis was organized into:
 - Changing attrition values from Yes/No to 1/0
-- Fitting a model where attrition is the independent variable and overtime is the only predictor
-- Fitting a second model where attrition is the independent variable and the predictors are:
+- Fitting a logistic regression model where attrition is the dependent variable, and overtime is the only predictor
+- Fitting a second logistic regression model where attrition is the dependent variable and the predictors are:
   - Age
   - Monthly Income
   - Distance from home
@@ -87,7 +87,7 @@ The R analysis was organized into:
   - Environment satisfaction
   - Years at company
 - Exponentiating results to get ratios instead of odds-ratios
-- Creating an ANOVA chi-squared test to validate variable importanceto model
+- Creating an ANOVA chi-squared test to validate variable importance to the model
 - Visualizing a decision tree on the second model
 
 
